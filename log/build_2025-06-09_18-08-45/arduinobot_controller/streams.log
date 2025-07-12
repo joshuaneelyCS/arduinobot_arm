@@ -1,0 +1,47 @@
+[0.107s] Invoking command in '/home/joshuaneely/arduinobot_ws/build/arduinobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/joshuaneely/arduinobot_ws/build/arduinobot_controller -- -j8 -l8
+[0.526s] [100%] Built target slider_control
+[0.565s] [100%] Built target ament_cmake_python_copy_arduinobot_controller
+[1.781s] running egg_info
+[1.848s] writing arduinobot_controller.egg-info/PKG-INFO
+[1.854s] writing dependency_links to arduinobot_controller.egg-info/dependency_links.txt
+[1.858s] writing top-level names to arduinobot_controller.egg-info/top_level.txt
+[2.030s] reading manifest file 'arduinobot_controller.egg-info/SOURCES.txt'
+[2.032s] writing manifest file 'arduinobot_controller.egg-info/SOURCES.txt'
+[2.178s] [100%] Built target ament_cmake_python_build_arduinobot_controller_egg
+[2.224s] Invoked command in '/home/joshuaneely/arduinobot_ws/build/arduinobot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/joshuaneely/arduinobot_ws/build/arduinobot_controller -- -j8 -l8
+[2.225s] Invoking command in '/home/joshuaneely/arduinobot_ws/build/arduinobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/joshuaneely/arduinobot_ws/build/arduinobot_controller
+[2.255s] -- Install configuration: ""
+[2.255s] -- Up-to-date: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/pythonpath.sh
+[2.257s] -- Up-to-date: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/pythonpath.dsv
+[2.259s] -- Up-to-date: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/lib/python3.12/site-packages/arduinobot_controller-0.0.0-py3.12.egg-info
+[2.259s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/lib/python3.12/site-packages/arduinobot_controller-0.0.0-py3.12.egg-info/top_level.txt
+[2.270s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/lib/python3.12/site-packages/arduinobot_controller-0.0.0-py3.12.egg-info/dependency_links.txt
+[2.271s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/lib/python3.12/site-packages/arduinobot_controller-0.0.0-py3.12.egg-info/PKG-INFO
+[2.271s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/lib/python3.12/site-packages/arduinobot_controller-0.0.0-py3.12.egg-info/SOURCES.txt
+[2.271s] -- Up-to-date: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/lib/python3.12/site-packages/arduinobot_controller
+[2.271s] -- Up-to-date: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/lib/python3.12/site-packages/arduinobot_controller/slider_control.py
+[2.271s] -- Up-to-date: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/lib/python3.12/site-packages/arduinobot_controller/__init__.py
+[2.401s] Listing '/home/joshuaneely/arduinobot_ws/install/arduinobot_controller/lib/python3.12/site-packages/arduinobot_controller'...
+[2.424s] -- Up-to-date: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/lib/arduinobot_controller/slider_control
+[2.425s] -- Up-to-date: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/launch
+[2.425s] -- Up-to-date: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/launch/slider_controller.launch.py
+[2.425s] -- Up-to-date: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/launch/controller.launch.py
+[2.425s] -- Up-to-date: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/config
+[2.425s] -- Up-to-date: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/config/arduinobot_controllers.yaml
+[2.425s] -- Up-to-date: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/lib/arduinobot_controller/slider_control.py
+[2.425s] -- Up-to-date: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/share/ament_index/resource_index/package_run_dependencies/arduinobot_controller
+[2.426s] -- Up-to-date: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/share/ament_index/resource_index/parent_prefix_path/arduinobot_controller
+[2.426s] -- Up-to-date: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/ament_prefix_path.sh
+[2.426s] -- Up-to-date: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/ament_prefix_path.dsv
+[2.426s] -- Up-to-date: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/path.sh
+[2.431s] -- Up-to-date: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/path.dsv
+[2.431s] -- Up-to-date: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/local_setup.bash
+[2.431s] -- Up-to-date: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/local_setup.sh
+[2.431s] -- Up-to-date: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/local_setup.zsh
+[2.431s] -- Up-to-date: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/local_setup.dsv
+[2.431s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/package.dsv
+[2.432s] -- Up-to-date: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/share/ament_index/resource_index/packages/arduinobot_controller
+[2.432s] -- Up-to-date: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/cmake/arduinobot_controllerConfig.cmake
+[2.432s] -- Up-to-date: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/cmake/arduinobot_controllerConfig-version.cmake
+[2.432s] -- Up-to-date: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/package.xml
+[2.456s] Invoked command in '/home/joshuaneely/arduinobot_ws/build/arduinobot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/joshuaneely/arduinobot_ws/build/arduinobot_controller

@@ -1,0 +1,16 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/joshuaneely/arduinobot_ws/install/arduinobot_utils/lib/python3.12/site-packages",
+        "/home/joshuaneely/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages",
+        "/home/joshuaneely/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages",
+        "/home/joshuaneely/arduinobot_ws/install/arduinobot_controller/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/joshuaneely/arduinobot_ws/install/arduinobot_utils/lib/python3.12/site-packages",
+        "/home/joshuaneely/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages",
+        "/home/joshuaneely/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages",
+        "/home/joshuaneely/arduinobot_ws/install/arduinobot_controller/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ]
+}

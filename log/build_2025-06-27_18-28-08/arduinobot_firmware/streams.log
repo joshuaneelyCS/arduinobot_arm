@@ -1,0 +1,47 @@
+[0.024s] Invoking command in '/home/joshuaneely/arduinobot_ws/build/arduinobot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joshuaneely/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/joshuaneely/arduinobot_ws/build/arduinobot_firmware -- -j8 -l8
+[0.036s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.170s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.218s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.233s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.253s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.274s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.332s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.336s] -- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[0.358s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.414s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.427s] -- Found rclpy: 7.1.4 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.430s] -- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+[0.431s] -- Checking for module 'libserial'
+[0.447s] --   Found libserial, version 1.0.0
+[0.569s] -- Configuring done (0.5s)
+[0.571s] [31mCMake Error at CMakeLists.txt:18 (add_executable):
+[0.571s]   Cannot find source file:
+[0.571s] 
+[0.571s]     src/simple_serial_receiver.cpp
+[0.571s] 
+[0.571s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[0.571s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[0.571s]   .f95 .f03 .hip .ispc
+[0.571s] 
+[0.571s] [0m
+[0.572s] [31mCMake Error at CMakeLists.txt:25 (add_executable):
+[0.572s]   Cannot find source file:
+[0.572s] 
+[0.572s]     src/simple_serial_transmitter.cpp
+[0.572s] 
+[0.572s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[0.572s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[0.572s]   .f95 .f03 .hip .ispc
+[0.572s] 
+[0.572s] [0m
+[0.572s] [31mCMake Error at CMakeLists.txt:18 (add_executable):
+[0.572s]   No SOURCES given to target: simple_serial_receiver
+[0.573s] 
+[0.573s] [0m
+[0.573s] [31mCMake Error at CMakeLists.txt:25 (add_executable):
+[0.573s]   No SOURCES given to target: simple_serial_transmitter
+[0.573s] 
+[0.573s] [0m
+[0.573s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.577s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.578s] Invoked command in '/home/joshuaneely/arduinobot_ws/build/arduinobot_firmware' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joshuaneely/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/joshuaneely/arduinobot_ws/build/arduinobot_firmware -- -j8 -l8

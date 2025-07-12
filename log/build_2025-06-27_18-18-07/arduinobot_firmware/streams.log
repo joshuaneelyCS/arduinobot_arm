@@ -1,0 +1,30 @@
+[0.033s] Invoking command in '/home/joshuaneely/arduinobot_ws/build/arduinobot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/joshuaneely/arduinobot_ws/build/arduinobot_firmware -- -j8 -l8
+[0.051s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.195s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.253s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.253s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.253s] -- Added test 'lint_cmake' to check CMake code style
+[0.254s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.254s] -- Added test 'xmllint' to check XML markup files
+[0.256s] -- Configuring done (0.2s)
+[0.259s] -- Generating done (0.0s)
+[0.260s] -- Build files have been written to: /home/joshuaneely/arduinobot_ws/build/arduinobot_firmware
+[0.278s] Invoked command in '/home/joshuaneely/arduinobot_ws/build/arduinobot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/joshuaneely/arduinobot_ws/build/arduinobot_firmware -- -j8 -l8
+[0.283s] Invoking command in '/home/joshuaneely/arduinobot_ws/build/arduinobot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/joshuaneely/arduinobot_ws/build/arduinobot_firmware
+[0.288s] -- Install configuration: ""
+[0.288s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_firmware/share/ament_index/resource_index/package_run_dependencies/arduinobot_firmware
+[0.288s] -- Up-to-date: /home/joshuaneely/arduinobot_ws/install/arduinobot_firmware/share/ament_index/resource_index/parent_prefix_path/arduinobot_firmware
+[0.288s] -- Up-to-date: /home/joshuaneely/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/ament_prefix_path.sh
+[0.288s] -- Up-to-date: /home/joshuaneely/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/ament_prefix_path.dsv
+[0.288s] -- Up-to-date: /home/joshuaneely/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/path.sh
+[0.288s] -- Up-to-date: /home/joshuaneely/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/path.dsv
+[0.288s] -- Up-to-date: /home/joshuaneely/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/local_setup.bash
+[0.288s] -- Up-to-date: /home/joshuaneely/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/local_setup.sh
+[0.288s] -- Up-to-date: /home/joshuaneely/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/local_setup.zsh
+[0.289s] -- Up-to-date: /home/joshuaneely/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/local_setup.dsv
+[0.289s] -- Up-to-date: /home/joshuaneely/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/package.dsv
+[0.289s] -- Up-to-date: /home/joshuaneely/arduinobot_ws/install/arduinobot_firmware/share/ament_index/resource_index/packages/arduinobot_firmware
+[0.289s] -- Up-to-date: /home/joshuaneely/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/cmake/arduinobot_firmwareConfig.cmake
+[0.289s] -- Up-to-date: /home/joshuaneely/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/cmake/arduinobot_firmwareConfig-version.cmake
+[0.289s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/package.xml
+[0.416s] Invoked command in '/home/joshuaneely/arduinobot_ws/build/arduinobot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/joshuaneely/arduinobot_ws/build/arduinobot_firmware

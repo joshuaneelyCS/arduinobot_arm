@@ -1,0 +1,86 @@
+[0.010s] Invoking command in '/home/joshuaneely/arduinobot_ws/build/arduinobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/joshuaneely/arduinobot_ws/src/arduinobot_controller -DCMAKE_INSTALL_PREFIX=/home/joshuaneely/arduinobot_ws/install/arduinobot_controller
+[0.063s] -- The C compiler identification is GNU 13.3.0
+[0.097s] -- The CXX compiler identification is GNU 13.3.0
+[0.107s] -- Detecting C compiler ABI info
+[0.156s] -- Detecting C compiler ABI info - done
+[0.162s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.162s] -- Detecting C compile features
+[0.164s] -- Detecting C compile features - done
+[0.169s] -- Detecting CXX compiler ABI info
+[0.223s] -- Detecting CXX compiler ABI info - done
+[0.229s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.229s] -- Detecting CXX compile features
+[0.229s] -- Detecting CXX compile features - done
+[0.234s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.316s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.386s] -- Found trajectory_msgs: 5.3.6 (/opt/ros/jazzy/share/trajectory_msgs/cmake)
+[0.428s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.441s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.459s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.476s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.528s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.556s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.597s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.603s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.667s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.678s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.690s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.747s] -- Found rclpy: 7.1.4 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.851s] -- Configuring done (0.8s)
+[0.856s] -- Generating done (0.0s)
+[0.859s] -- Build files have been written to: /home/joshuaneely/arduinobot_ws/build/arduinobot_controller
+[0.864s] Invoked command in '/home/joshuaneely/arduinobot_ws/build/arduinobot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/joshuaneely/arduinobot_ws/src/arduinobot_controller -DCMAKE_INSTALL_PREFIX=/home/joshuaneely/arduinobot_ws/install/arduinobot_controller
+[0.865s] Invoking command in '/home/joshuaneely/arduinobot_ws/build/arduinobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/joshuaneely/arduinobot_ws/build/arduinobot_controller -- -j8 -l8
+[0.893s] [ 50%] [32mBuilding CXX object CMakeFiles/slider_control.dir/src/slider_control.cpp.o[0m
+[0.897s] [ 50%] Built target ament_cmake_python_copy_arduinobot_controller
+[0.995s] running egg_info
+[0.996s] creating arduinobot_controller.egg-info
+[1.004s] writing arduinobot_controller.egg-info/PKG-INFO
+[1.005s] writing dependency_links to arduinobot_controller.egg-info/dependency_links.txt
+[1.005s] writing top-level names to arduinobot_controller.egg-info/top_level.txt
+[1.005s] writing manifest file 'arduinobot_controller.egg-info/SOURCES.txt'
+[1.030s] reading manifest file 'arduinobot_controller.egg-info/SOURCES.txt'
+[1.030s] writing manifest file 'arduinobot_controller.egg-info/SOURCES.txt'
+[1.047s] [ 50%] Built target ament_cmake_python_build_arduinobot_controller_egg
+[5.057s] [100%] [32m[1mLinking CXX executable slider_control[0m
+[5.269s] [100%] Built target slider_control
+[5.276s] Invoked command in '/home/joshuaneely/arduinobot_ws/build/arduinobot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/joshuaneely/arduinobot_ws/build/arduinobot_controller -- -j8 -l8
+[5.277s] Invoking command in '/home/joshuaneely/arduinobot_ws/build/arduinobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/joshuaneely/arduinobot_ws/build/arduinobot_controller
+[5.281s] -- Install configuration: ""
+[5.281s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/pythonpath.sh
+[5.281s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/pythonpath.dsv
+[5.281s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/lib/python3.12/site-packages/arduinobot_controller-0.0.0-py3.12.egg-info
+[5.281s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/lib/python3.12/site-packages/arduinobot_controller-0.0.0-py3.12.egg-info/top_level.txt
+[5.282s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/lib/python3.12/site-packages/arduinobot_controller-0.0.0-py3.12.egg-info/dependency_links.txt
+[5.282s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/lib/python3.12/site-packages/arduinobot_controller-0.0.0-py3.12.egg-info/PKG-INFO
+[5.283s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/lib/python3.12/site-packages/arduinobot_controller-0.0.0-py3.12.egg-info/SOURCES.txt
+[5.283s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/lib/python3.12/site-packages/arduinobot_controller
+[5.283s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/lib/python3.12/site-packages/arduinobot_controller/slider_control.py
+[5.283s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/lib/python3.12/site-packages/arduinobot_controller/__init__.py
+[5.302s] Listing '/home/joshuaneely/arduinobot_ws/install/arduinobot_controller/lib/python3.12/site-packages/arduinobot_controller'...
+[5.302s] Compiling '/home/joshuaneely/arduinobot_ws/install/arduinobot_controller/lib/python3.12/site-packages/arduinobot_controller/__init__.py'...
+[5.302s] Compiling '/home/joshuaneely/arduinobot_ws/install/arduinobot_controller/lib/python3.12/site-packages/arduinobot_controller/slider_control.py'...
+[5.309s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/lib/arduinobot_controller/slider_control
+[5.309s] -- Set non-toolchain portion of runtime path of "/home/joshuaneely/arduinobot_ws/install/arduinobot_controller/lib/arduinobot_controller/slider_control" to ""
+[5.310s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/launch
+[5.310s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/launch/slider_controller.launch.py
+[5.310s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/launch/controller.launch.py
+[5.310s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/config
+[5.311s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/config/arduinobot_controllers.yaml
+[5.311s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/lib/arduinobot_controller/slider_control.py
+[5.311s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/share/ament_index/resource_index/package_run_dependencies/arduinobot_controller
+[5.311s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/share/ament_index/resource_index/parent_prefix_path/arduinobot_controller
+[5.313s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/ament_prefix_path.sh
+[5.313s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/ament_prefix_path.dsv
+[5.313s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/path.sh
+[5.313s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/path.dsv
+[5.313s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/local_setup.bash
+[5.313s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/local_setup.sh
+[5.313s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/local_setup.zsh
+[5.313s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/local_setup.dsv
+[5.313s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/package.dsv
+[5.313s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/share/ament_index/resource_index/packages/arduinobot_controller
+[5.313s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/cmake/arduinobot_controllerConfig.cmake
+[5.313s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/cmake/arduinobot_controllerConfig-version.cmake
+[5.313s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/package.xml
+[5.314s] Invoked command in '/home/joshuaneely/arduinobot_ws/build/arduinobot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/joshuaneely/arduinobot_ws/build/arduinobot_controller

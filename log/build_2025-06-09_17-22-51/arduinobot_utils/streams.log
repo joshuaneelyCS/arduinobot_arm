@@ -1,0 +1,81 @@
+[0.132s] Invoking command in '/home/joshuaneely/arduinobot_ws/build/arduinobot_utils': AMENT_PREFIX_PATH=/home/joshuaneely/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joshuaneely/arduinobot_ws/install/arduinobot_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/joshuaneely/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joshuaneely/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/joshuaneely/arduinobot_ws/src/arduinobot_utils -DCMAKE_INSTALL_PREFIX=/home/joshuaneely/arduinobot_ws/install/arduinobot_utils
+[0.169s] -- The C compiler identification is GNU 13.3.0
+[0.203s] -- The CXX compiler identification is GNU 13.3.0
+[0.219s] -- Detecting C compiler ABI info
+[0.268s] -- Detecting C compiler ABI info - done
+[0.273s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.273s] -- Detecting C compile features
+[0.274s] -- Detecting C compile features - done
+[0.280s] -- Detecting CXX compiler ABI info
+[0.334s] -- Detecting CXX compiler ABI info - done
+[0.340s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.340s] -- Detecting CXX compile features
+[0.341s] -- Detecting CXX compile features - done
+[0.362s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.455s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.543s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.580s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.592s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.608s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.625s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.687s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.690s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.748s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.760s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.774s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.828s] -- Found rclpy: 7.1.4 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.828s] -- Found arduinobot_msgs: 0.0.0 (/home/joshuaneely/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake)
+[0.842s] -- Found tf2: 0.36.11 (/opt/ros/jazzy/share/tf2/cmake)
+[0.985s] -- Configuring done (0.8s)
+[0.993s] -- Generating done (0.0s)
+[0.995s] -- Build files have been written to: /home/joshuaneely/arduinobot_ws/build/arduinobot_utils
+[1.001s] Invoked command in '/home/joshuaneely/arduinobot_ws/build/arduinobot_utils' returned '0': AMENT_PREFIX_PATH=/home/joshuaneely/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joshuaneely/arduinobot_ws/install/arduinobot_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/joshuaneely/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joshuaneely/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/joshuaneely/arduinobot_ws/src/arduinobot_utils -DCMAKE_INSTALL_PREFIX=/home/joshuaneely/arduinobot_ws/install/arduinobot_utils
+[1.002s] Invoking command in '/home/joshuaneely/arduinobot_ws/build/arduinobot_utils': AMENT_PREFIX_PATH=/home/joshuaneely/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joshuaneely/arduinobot_ws/install/arduinobot_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/joshuaneely/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joshuaneely/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/joshuaneely/arduinobot_ws/build/arduinobot_utils -- -j8 -l8
+[1.031s] [ 50%] [32mBuilding CXX object CMakeFiles/angle_conversion.dir/src/angle_conversion.cpp.o[0m
+[1.036s] [ 50%] Built target ament_cmake_python_copy_arduinobot_utils
+[1.142s] running egg_info
+[1.142s] creating arduinobot_utils.egg-info
+[1.151s] writing arduinobot_utils.egg-info/PKG-INFO
+[1.151s] writing dependency_links to arduinobot_utils.egg-info/dependency_links.txt
+[1.153s] writing top-level names to arduinobot_utils.egg-info/top_level.txt
+[1.153s] writing manifest file 'arduinobot_utils.egg-info/SOURCES.txt'
+[1.177s] reading manifest file 'arduinobot_utils.egg-info/SOURCES.txt'
+[1.178s] writing manifest file 'arduinobot_utils.egg-info/SOURCES.txt'
+[1.196s] [ 50%] Built target ament_cmake_python_build_arduinobot_utils_egg
+[3.149s] [100%] [32m[1mLinking CXX executable angle_conversion[0m
+[3.239s] [100%] Built target angle_conversion
+[3.245s] Invoked command in '/home/joshuaneely/arduinobot_ws/build/arduinobot_utils' returned '0': AMENT_PREFIX_PATH=/home/joshuaneely/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joshuaneely/arduinobot_ws/install/arduinobot_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/joshuaneely/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joshuaneely/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/joshuaneely/arduinobot_ws/build/arduinobot_utils -- -j8 -l8
+[3.246s] Invoking command in '/home/joshuaneely/arduinobot_ws/build/arduinobot_utils': AMENT_PREFIX_PATH=/home/joshuaneely/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joshuaneely/arduinobot_ws/install/arduinobot_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/joshuaneely/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joshuaneely/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/joshuaneely/arduinobot_ws/build/arduinobot_utils
+[3.250s] -- Install configuration: ""
+[3.250s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/environment/pythonpath.sh
+[3.250s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/environment/pythonpath.dsv
+[3.251s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_utils/lib/python3.12/site-packages/arduinobot_utils-0.0.0-py3.12.egg-info
+[3.251s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_utils/lib/python3.12/site-packages/arduinobot_utils-0.0.0-py3.12.egg-info/top_level.txt
+[3.251s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_utils/lib/python3.12/site-packages/arduinobot_utils-0.0.0-py3.12.egg-info/dependency_links.txt
+[3.251s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_utils/lib/python3.12/site-packages/arduinobot_utils-0.0.0-py3.12.egg-info/PKG-INFO
+[3.251s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_utils/lib/python3.12/site-packages/arduinobot_utils-0.0.0-py3.12.egg-info/SOURCES.txt
+[3.251s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_utils/lib/python3.12/site-packages/arduinobot_utils
+[3.251s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_utils/lib/python3.12/site-packages/arduinobot_utils/angle_conversion.py
+[3.251s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_utils/lib/python3.12/site-packages/arduinobot_utils/__init__.py
+[3.270s] Listing '/home/joshuaneely/arduinobot_ws/install/arduinobot_utils/lib/python3.12/site-packages/arduinobot_utils'...
+[3.270s] Compiling '/home/joshuaneely/arduinobot_ws/install/arduinobot_utils/lib/python3.12/site-packages/arduinobot_utils/__init__.py'...
+[3.270s] Compiling '/home/joshuaneely/arduinobot_ws/install/arduinobot_utils/lib/python3.12/site-packages/arduinobot_utils/angle_conversion.py'...
+[3.273s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_utils/lib/arduinobot_utils/angle_conversion
+[3.274s] -- Set non-toolchain portion of runtime path of "/home/joshuaneely/arduinobot_ws/install/arduinobot_utils/lib/arduinobot_utils/angle_conversion" to ""
+[3.274s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_utils/lib/arduinobot_utils/angle_conversion.py
+[3.274s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_utils/share/ament_index/resource_index/package_run_dependencies/arduinobot_utils
+[3.275s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_utils/share/ament_index/resource_index/parent_prefix_path/arduinobot_utils
+[3.275s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/environment/ament_prefix_path.sh
+[3.275s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/environment/ament_prefix_path.dsv
+[3.275s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/environment/path.sh
+[3.275s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/environment/path.dsv
+[3.275s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/local_setup.bash
+[3.275s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/local_setup.sh
+[3.275s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/local_setup.zsh
+[3.275s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/local_setup.dsv
+[3.275s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/package.dsv
+[3.275s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_utils/share/ament_index/resource_index/packages/arduinobot_utils
+[3.275s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/cmake/arduinobot_utilsConfig.cmake
+[3.275s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/cmake/arduinobot_utilsConfig-version.cmake
+[3.275s] -- Installing: /home/joshuaneely/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/package.xml
+[3.277s] Invoked command in '/home/joshuaneely/arduinobot_ws/build/arduinobot_utils' returned '0': AMENT_PREFIX_PATH=/home/joshuaneely/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joshuaneely/arduinobot_ws/install/arduinobot_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/joshuaneely/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joshuaneely/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/joshuaneely/arduinobot_ws/build/arduinobot_utils
